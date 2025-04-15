@@ -15,3 +15,4 @@ EXPOSE 8000
 
 # Start Django dev server
 CMD gunicorn --preload 'website.wsgi' --bind=0.0.0.0:8000
+
